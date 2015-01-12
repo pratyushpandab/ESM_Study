@@ -1,0 +1,615 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+	package
+		ADDED from AndroidManifest.xml:3:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionCode
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from AndroidManifest.xml:5:5
+	android:name
+		ADDED from AndroidManifest.xml:5:22
+uses-permission#com.aware.READ_CONTEXT_DATA
+ADDED from AndroidManifest.xml:6:5
+MERGED from ESMStudy:aware-core:unspecified:phoneRelease:43:5
+	android:name
+		ADDED from AndroidManifest.xml:6:22
+uses-permission#com.aware.WRITE_CONTEXT_DATA
+ADDED from AndroidManifest.xml:7:5
+MERGED from ESMStudy:aware-core:unspecified:phoneRelease:44:5
+	android:name
+		ADDED from AndroidManifest.xml:7:22
+application
+ADDED from AndroidManifest.xml:9:5
+MERGED from com.android.support:appcompat-v7:21.0.3:16:5
+MERGED from com.android.support:support-v4:21.0.3:16:5
+MERGED from ESMStudy:aware-core:unspecified:phoneRelease:49:5
+MERGED from com.android.support:appcompat-v7:21.0.3:16:5
+MERGED from com.android.support:support-v4:21.0.3:16:5
+MERGED from com.android.support:gridlayout-v7:21.0.2:16:5
+MERGED from com.android.support:support-v4:21.0.3:16:5
+MERGED from com.android.support:cardview-v7:21.0.2:16:5
+MERGED from com.android.support:support-v4:21.0.3:16:5
+MERGED from com.android.support:support-v4:21.0.3:16:5
+MERGED from com.google.android.gms:play-services:6.5.87:20:5
+MERGED from com.android.support:support-v4:21.0.3:16:5
+	android:label
+		ADDED from AndroidManifest.xml:12:9
+	android:allowBackup
+		ADDED from AndroidManifest.xml:10:9
+	android:icon
+		ADDED from AndroidManifest.xml:11:9
+	android:theme
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:52:9
+service#com.aware.plugin.esmstudy.Plugin
+ADDED from AndroidManifest.xml:14:9
+	android:exported
+		ADDED from AndroidManifest.xml:14:89
+	android:enabled
+		ADDED from AndroidManifest.xml:14:66
+	android:name
+		ADDED from AndroidManifest.xml:14:18
+receiver#com.aware.plugin.esmstudy.StartServiceAfterBoot
+ADDED from AndroidManifest.xml:16:9
+	android:label
+		ADDED from AndroidManifest.xml:20:13
+	android:exported
+		ADDED from AndroidManifest.xml:19:13
+	android:enabled
+		ADDED from AndroidManifest.xml:18:13
+	android:name
+		ADDED from AndroidManifest.xml:17:13
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from AndroidManifest.xml:21:13
+action#android.intent.action.BOOT_COMPLETED
+ADDED from AndroidManifest.xml:22:17
+	android:name
+		ADDED from AndroidManifest.xml:22:25
+service#com.aware.plugin.esmstudy.CreateESM
+ADDED from AndroidManifest.xml:26:9
+	android:enabled
+		ADDED from AndroidManifest.xml:26:69
+	android:name
+		ADDED from AndroidManifest.xml:26:18
+activity#com.aware.plugin.esmstudy.Settings
+ADDED from AndroidManifest.xml:27:9
+	android:configChanges
+		ADDED from AndroidManifest.xml:27:68
+	android:exported
+		ADDED from AndroidManifest.xml:27:44
+	android:name
+		ADDED from AndroidManifest.xml:27:19
+uses-sdk
+INJECTED from AndroidManifest.xml:0:0 reason: use-sdk injection requested
+MERGED from com.android.support:appcompat-v7:21.0.3:15:5
+MERGED from com.android.support:support-v4:21.0.3:15:5
+MERGED from ESMStudy:aware-core:unspecified:phoneRelease:5:5
+MERGED from com.android.support:appcompat-v7:21.0.3:15:5
+MERGED from com.android.support:support-v4:21.0.3:15:5
+MERGED from com.android.support:gridlayout-v7:21.0.2:15:5
+MERGED from com.android.support:support-v4:21.0.3:15:5
+MERGED from com.android.support:cardview-v7:21.0.2:15:5
+MERGED from com.github.machinarius:preferencefragment:0.1.1:18:5
+MERGED from com.android.support:support-v4:21.0.3:15:5
+MERGED from com.android.support:support-v4:21.0.3:15:5
+MERGED from com.google.android.gms:play-services:6.5.87:18:5
+MERGED from com.android.support:support-v4:21.0.3:15:5
+	android:targetSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-feature#android.hardware.camera
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:9:5
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:9:19
+uses-feature#android.hardware.camera.autofocus
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:10:5
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:10:19
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:45:5
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:45:22
+uses-permission#android.permission.INTERNET
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:46:5
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:46:22
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:47:5
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:47:22
+meta-data#com.google.android.gms.version
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:53:9
+MERGED from com.google.android.gms:play-services:6.5.87:21:9
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:54:13
+	android:value
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:55:13
+activity#com.aware.Aware_Preferences
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:57:9
+	android:label
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:63:13
+	android:icon
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:62:13
+	android:configChanges
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:59:13
+	android:theme
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:65:13
+	android:exported
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:61:13
+	android:enabled
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:60:13
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:58:13
+	android:launchMode
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:64:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:66:13
+action#android.intent.action.MAIN
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:67:17
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:67:25
+category#android.intent.category.LAUNCHER
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:69:17
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:69:27
+activity#com.aware.ui.Stream_UI
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:72:9
+	android:noHistory
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:80:13
+	android:label
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:78:13
+	android:icon
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:77:13
+	android:configChanges
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:74:13
+	android:theme
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:82:13
+	android:exported
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:76:13
+	android:enabled
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:75:13
+	android:parentActivityName
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:81:13
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:73:13
+	android:launchMode
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:79:13
+intent-filter#android.intent.action.ASSIST+android.intent.category.DEFAULT+android.intent.category.LAUNCHER
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:83:13
+action#android.intent.action.ASSIST
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:84:17
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:84:25
+category#android.intent.category.DEFAULT
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:86:17
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:86:27
+meta-data#com.android.systemui.action_assist_icon
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:90:13
+	android:resource
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:92:17
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:91:17
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:93:13
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:94:17
+	android:value
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:95:17
+activity#com.aware.ui.CameraStudy
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:97:9
+	android:label
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:101:13
+	android:configChanges
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:99:13
+	android:theme
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:104:13
+	android:enabled
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:100:13
+	android:parentActivityName
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:103:13
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:98:13
+	android:launchMode
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:102:13
+activity#com.aware.ui.Plugins_Manager
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:109:9
+	android:label
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:115:13
+	android:icon
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:114:13
+	android:configChanges
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:111:13
+	android:theme
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:118:13
+	android:exported
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:113:13
+	android:enabled
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:112:13
+	android:parentActivityName
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:117:13
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:110:13
+	android:launchMode
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:116:13
+activity#com.aware.ui.About
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:123:9
+	android:label
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:128:13
+	android:configChanges
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:125:13
+	android:theme
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:131:13
+	android:exported
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:127:13
+	android:enabled
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:126:13
+	android:parentActivityName
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:130:13
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:124:13
+	android:launchMode
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:129:13
+activity#com.aware.ui.ESM_Queue
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:133:9
+	android:noHistory
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:140:13
+	android:configChanges
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:136:13
+	android:theme
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:142:13
+	android:exported
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:138:13
+	android:showOnLockScreen
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:141:13
+	android:clearTaskOnLaunch
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:135:13
+	android:excludeFromRecents
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:137:13
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:134:13
+	android:launchMode
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:139:13
+service#com.aware.Keyboard
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:145:9
+	android:exported
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:147:13
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:146:13
+service#com.aware.Aware
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:148:9
+	android:exported
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:150:13
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:149:13
+service#com.aware.Applications
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:152:9
+	android:exported
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:155:13
+	android:enabled
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:154:13
+	android:permission
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:156:13
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:153:13
+intent-filter#android.accessibilityservice.AccessibilityService
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:157:13
+action#android.accessibilityservice.AccessibilityService
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:158:17
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:158:25
+meta-data#android.accessibilityservice
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:161:13
+	android:resource
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:163:17
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:162:17
+service#com.aware.Applications$BackgroundService
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:165:9
+	android:exported
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:167:13
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:166:13
+service#com.aware.Locations
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:169:9
+	android:exported
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:171:13
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:170:13
+service#com.aware.Bluetooth
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:173:9
+	android:exported
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:175:13
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:174:13
+service#com.aware.Screen
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:177:9
+	android:exported
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:179:13
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:178:13
+service#com.aware.Battery
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:181:9
+	android:exported
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:183:13
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:182:13
+service#com.aware.Network
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:185:9
+	android:exported
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:187:13
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:186:13
+service#com.aware.Communication
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:189:9
+	android:exported
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:191:13
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:190:13
+service#com.aware.Processor
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:193:9
+	android:exported
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:195:13
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:194:13
+service#com.aware.TimeZone
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:197:9
+	android:exported
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:199:13
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:198:13
+service#com.aware.Mqtt
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:201:9
+	android:exported
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:203:13
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:202:13
+service#com.aware.Traffic
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:205:9
+	android:exported
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:207:13
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:206:13
+service#com.aware.Accelerometer
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:209:9
+	android:exported
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:211:13
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:210:13
+service#com.aware.Gyroscope
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:213:9
+	android:exported
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:215:13
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:214:13
+service#com.aware.Bluetooth$BackgroundService
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:217:9
+	android:exported
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:219:13
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:218:13
+service#com.aware.WiFi
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:221:9
+	android:exported
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:223:13
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:222:13
+service#com.aware.WiFi$BackgroundService
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:225:9
+	android:exported
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:227:13
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:226:13
+service#com.aware.Telephony
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:229:9
+	android:exported
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:231:13
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:230:13
+service#com.aware.Rotation
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:233:9
+	android:exported
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:235:13
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:234:13
+service#com.aware.Light
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:237:9
+	android:exported
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:239:13
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:238:13
+service#com.aware.Proximity
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:241:9
+	android:exported
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:243:13
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:242:13
+service#com.aware.Magnetometer
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:245:9
+	android:exported
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:247:13
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:246:13
+service#com.aware.Barometer
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:249:9
+	android:exported
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:251:13
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:250:13
+service#com.aware.Gravity
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:253:9
+	android:exported
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:255:13
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:254:13
+service#com.aware.LinearAccelerometer
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:257:9
+	android:exported
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:259:13
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:258:13
+service#com.aware.Temperature
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:261:9
+	android:exported
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:263:13
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:262:13
+service#com.aware.ESM
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:265:9
+	android:exported
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:267:13
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:266:13
+service#com.aware.ESM$BackgroundService
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:269:9
+	android:exported
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:271:13
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:270:13
+service#com.aware.Installations
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:273:9
+	android:exported
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:275:13
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:274:13
+service#com.aware.utils.WebserviceHelper
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:277:9
+	android:exported
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:279:13
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:278:13
+intent-filter#ACTION_AWARE_WEBSERVICE_CLEAR_TABLE+ACTION_AWARE_WEBSERVICE_SYNC_TABLE
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:280:13
+action#ACTION_AWARE_WEBSERVICE_SYNC_TABLE
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:281:17
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:281:25
+action#ACTION_AWARE_WEBSERVICE_CLEAR_TABLE
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:282:17
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:282:25
+service#com.aware.Aware_Preferences$StudyConfig
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:285:9
+	android:exported
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:287:13
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:286:13
+service#com.aware.Aware$UpdateFrameworkService
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:288:9
+	android:exported
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:291:13
+	android:enabled
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:290:13
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:289:13
+service#com.aware.Aware$DownloadPluginService
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:292:9
+	android:exported
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:294:13
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:293:13
+service#com.aware.Wear_Sync
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:295:9
+	android:exported
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:298:13
+	android:enabled
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:297:13
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:296:13
+service#com.aware.Wear_Service
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:299:9
+	android:exported
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:302:13
+	android:enabled
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:301:13
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:300:13
+intent-filter#com.google.android.gms.wearable.BIND_LISTENER
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:303:13
+action#com.google.android.gms.wearable.BIND_LISTENER
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:304:17
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:304:25
+service#com.aware.Wear_Sync$Wear_Bg
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:307:9
+	android:exported
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:310:13
+	android:enabled
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:309:13
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:308:13
+receiver#com.aware.Aware$Aware_Broadcaster
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:312:9
+	android:exported
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:314:13
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:313:13
+intent-filter#ACTION_AWARE_CLEAR_DATA+ACTION_AWARE_CONFIGURATION+ACTION_AWARE_REFRESH+ACTION_AWARE_SYNC_DATA
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:315:13
+action#ACTION_AWARE_SYNC_DATA
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:316:17
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:316:25
+action#ACTION_AWARE_CLEAR_DATA
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:317:17
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:317:25
+action#ACTION_AWARE_CONFIGURATION
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:318:17
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:318:25
+action#ACTION_AWARE_REFRESH
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:319:17
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:319:25
+receiver#com.aware.Aware$PluginMonitor
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:322:9
+	android:exported
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:325:13
+	android:enabled
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:324:13
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:323:13
+intent-filter#android.intent.action.PACKAGE_ADDED+android.intent.action.PACKAGE_REMOVED
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:326:13
+action#android.intent.action.PACKAGE_ADDED
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:327:17
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:327:25
+action#android.intent.action.PACKAGE_REMOVED
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:328:17
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:328:25
+data
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:330:17
+	android:scheme
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:330:23
+receiver#com.aware.Aware$Storage_Broadcaster
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:333:9
+	android:exported
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:336:13
+	android:enabled
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:335:13
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:334:13
+intent-filter#android.intent.action.MEDIA_MOUNTED+android.intent.action.MEDIA_UNMOUNTED
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:337:13
+action#android.intent.action.MEDIA_MOUNTED
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:338:17
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:338:25
+action#android.intent.action.MEDIA_UNMOUNTED
+ADDED from ESMStudy:aware-core:unspecified:phoneRelease:339:17
+	android:name
+		ADDED from ESMStudy:aware-core:unspecified:phoneRelease:339:25
