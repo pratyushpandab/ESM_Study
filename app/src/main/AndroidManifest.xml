@@ -2,39 +2,15 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.aware.plugin.esmstudy" >
 
-    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-    <uses-permission android:name="com.aware.READ_CONTEXT_DATA"/>
-    <uses-permission android:name="com.aware.WRITE_CONTEXT_DATA"/>
-
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name">
-        <!--android:theme="@style/AppTheme" >-->
+
         <service android:name="com.aware.plugin.esmstudy.Plugin" android:enabled="true" android:exported="true"/>
-
-        <receiver
-            android:name="com.aware.plugin.esmstudy.StartServiceAfterBoot"
-            android:enabled="true"
-            android:exported="true"
-            android:label="StartServiceAfterBoot">
-            <intent-filter>
-                <action android:name="android.intent.action.BOOT_COMPLETED" />
-            </intent-filter>
-        </receiver>
-
         <service android:name="com.aware.plugin.esmstudy.CreateESM" android:enabled="true"/>
-        <activity android:name=".Settings" android:exported="true" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:name="com.aware.plugin.esmstudy.Settings" android:exported="true" android:configChanges="keyboardHidden|orientation|screenSize" />
 
-        <!--<activity-->
-            <!--android:name=".Settings"-->
-            <!--android:label="@string/app_name" >-->
-            <!--<intent-filter>-->
-                <!--<action android:name="android.intent.action.MAIN" />-->
-
-                <!--<category android:name="android.intent.category.LAUNCHER" />-->
-            <!--</intent-filter>-->
-        <!--</activity>-->
     </application>
 
 </manifest>

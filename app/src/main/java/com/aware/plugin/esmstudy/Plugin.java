@@ -1,5 +1,25 @@
 package com.aware.plugin.esmstudy;
 
+import android.app.AlarmManager;
+import android.app.NotificationManager;
+import android.app.PendingIntent;
+import android.content.BroadcastReceiver;
+import android.content.Context;
+import android.content.Intent;
+import android.content.IntentFilter;
+import android.content.SharedPreferences;
+import android.net.Uri;
+import android.os.Environment;
+import android.support.v4.app.NotificationCompat;
+import android.util.Log;
+import android.widget.Toast;
+
+import com.aware.Aware;
+import com.aware.Aware_Preferences;
+import com.aware.ESM;
+import com.aware.plugin.esmstudy.R.drawable;
+import com.aware.utils.Aware_Plugin;
+
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
@@ -8,30 +28,6 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Collections;
 import java.util.Random;
-
-
-import android.annotation.SuppressLint;
-import android.app.AlarmManager;
-import android.app.Notification;
-import android.app.NotificationManager;
-import android.app.PendingIntent;
-import android.content.BroadcastReceiver;
-import android.content.Context;
-import android.content.Intent;
-import android.content.IntentFilter;
-import android.content.SharedPreferences;
-
-import android.net.Uri;
-import android.os.Environment;
-import android.util.Log;
-import android.widget.Toast;
-
-import com.aware.Aware;
-import com.aware.Aware_Preferences;
-import com.aware.ESM;
-import com.aware.plugin.esmstudy.R.drawable;
-
-import com.aware.utils.Aware_Plugin;
 
 
 public class Plugin extends Aware_Plugin {
@@ -225,6 +221,11 @@ public class Plugin extends Aware_Plugin {
         generateAlarms();
     }
 
+    @Override
+    public int onStartCommand(Intent intent, int flags, int startId) {
+        return START_STICKY;
+    }
+
     void generateAlarms() {
 
 
@@ -297,8 +298,8 @@ public class Plugin extends Aware_Plugin {
 
     }
 
-    @SuppressLint("NewApi") void notifyUser(int Id, String note) {
-        Notification.Builder mBuilder = new Notification.Builder(this);
+    private void notifyUser(int Id, String note) {
+        NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(this);
         mBuilder.setSmallIcon(drawable.ic_notify_user);
         mBuilder.setContentText(note);
         if (Id == 001) {
